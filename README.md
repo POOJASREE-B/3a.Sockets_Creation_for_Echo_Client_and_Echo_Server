@@ -30,7 +30,7 @@ while True:
     ClientMessage=c.recv(1024).decode() 
     c.send(ClientMessage.encode())
 ```
-## OUPUT
+## OUTPUT
 ## CLIENT:
 ![image](https://github.com/user-attachments/assets/0933fed5-a7df-419a-8e1c-d838707a405c)
 ## SERVER:
